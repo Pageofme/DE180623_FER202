@@ -11,6 +11,7 @@ import FirstTeenager from './firstTeenager';
 import AreAllTeenagers from './AreAllTeenagers';
 import sortByOccupationThenAge from './sortByOccupationThenAge';
 import PeopleListOfOccupation from './PeopleListOfOccupation';
+import OldestAndYoungest from './OldestAndYoungest';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,7 +22,9 @@ root.render(
     {/* <PeopleTable /> */}
     {/* <FirstTeenager/> */}
     {/* <AreAllTeenagers /> */}
-    <PeopleListOfOccupation/>
+    {/* <PeopleListOfOccupation/> */
+    <OldestAndYoungest/>
+    }
   </React.StrictMode>
 );
 

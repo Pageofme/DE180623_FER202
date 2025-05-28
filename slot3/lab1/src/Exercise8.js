@@ -21,7 +21,7 @@ function GroupEmployeesByDepartment() {
           <h3>{department}</h3>
           <ul>
             {emps.map(emp => (
-              <li key={emp.id}>
+              <li key={emp.department}>
                 {emp.name} - Age: {emp.age}
               </li>
             ))}
