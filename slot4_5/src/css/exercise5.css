@@ -1,0 +1,81 @@
+header{
+    background-color: #EACDAD;
+    /* margin-bottom: 20px; */
+}
+
+.logo{
+    background-color: #EACDAD;
+}
+ .largeImg{
+    background-color: #F38F31;
+}
+.image{
+    padding: 5% 3%;
+    min-height: 300px;
+    object-fit: contain;    
+    width: 100% ;
+}
+
+.student nav{
+    margin-top: 0;
+}
+
+.d-flex{
+    align-items: center;
+    color: black;
+}
+
+.form-control{
+    height: 25px;
+}
+
+.custom-link {
+  color: #f28333; 
+  text-decoration: none; /* bỏ gạch chân */
+  font-weight: 600; /* chữ hơi đậm */
+  display: flex;
+  align-items: center;
+}
+
+.custom-link:hover {
+  color: #d16b1a; /* màu cam đậm hơn khi hover */
+  text-decoration: none;
+}
+.breadcrumb {
+  background-color: #E8ECEF; /* hoặc màu nền bạn muốn */
+  text-align: center;
+  width: 15%;
+  padding: 15px 10px ;
+  margin-left:20px;
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center
+}
+
+.breadcrumb a {
+  color: #f5917e !important; /* màu cam cho link Home */
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #666 !important; /* màu xám cho phần hiện tại Students */
+}
+
+.card img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%
+}
+
+.btn{
+    border: black 11px;
+    background-color: #F38F31;
+}
+
+.cardBtn{
+    text-align:  center;
+}
