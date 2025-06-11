@@ -60,9 +60,24 @@ function App() {
   const namesList = ["traltb@fe.edu.vn", "test@fe.edu.vn"];
   //Danh sach students
   const students = [
-    { name: "traltb1@fe.edu.vn", age: 39, avatar: "/images/student1.jpg" },
-    { name: "traltb2@fe.edu.vn", age: 40, avatar: "/images/student2.jpg" },
-    { name: "traltb3@fe.edu.vn", age: 41, avatar: "/images/student3.jpg" },
+    {
+      name: "Hoang",
+      age: 39,
+      avatar: "/images/student1.jpg",
+      address: "Viet Nam",
+    },
+    {
+      name: "Heo",
+      age: 40,
+      avatar: "/images/student2.jpg",
+      address: "Viet Nam",
+    },
+    {
+      name: "Meo",
+      age: 41,
+      avatar: "/images/student3.jpg",
+      address: "Viet Nam",
+    },
   ];
   return (
     <>

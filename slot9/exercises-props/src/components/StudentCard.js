@@ -12,7 +12,9 @@ const StudentCard = ({ student }) => {
       <Card.Body>
         <Card.Title>{student.name}</Card.Title>
         <Card.Text>Age: {student.age}</Card.Text>
-        <Button variant="primary">Edit</Button>
+        <Card.Text>Address: {student.address}</Card.Text>
+        <Button variant="primary mx-3">Edit</Button>
+        <Button variant="primary mx-3">Xem chi tiết</Button>
       </Card.Body>
     </Card>
   );
