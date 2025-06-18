@@ -1,0 +1,29 @@
+/* Thêm vào file CSS */
+.answer-button {
+    text-decoration: underline;
+    /* Thêm gạch chân dưới */
+    color: #007bff;
+    /* Đặt màu cho văn bản */
+    padding: 0;
+    /* Bỏ padding của button để nó giống liên kết hơn */
+}
+
+.answer-button:hover {
+    text-decoration: underline;
+    /* Giữ gạch chân khi hover */
+    cursor: pointer;
+    /* Thêm hiệu ứng khi rê chuột */
+}
+
+/* Thêm vào file CSS */
+.custom-table {
+    border: 2px solid #6e7175;
+    /* Đặt màu xanh cho bảng */
+    width: 100%;
+    text-align: start;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #9ca1a7;
+    /* Đặt màu xanh cho các ô */
+}
